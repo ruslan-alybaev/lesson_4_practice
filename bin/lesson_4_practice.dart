@@ -1,6 +1,8 @@
 void main() {
   List a = [5, 8];
-  print(a[0] + a[1]);
+  // print(a[0] + a[1]);
+  int summ = a[0] + a[1];
+  print(summ);
 
   List b = ["apple", "banana"];
   print(b.join(' '));
